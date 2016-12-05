@@ -8,6 +8,10 @@ gem 'geokit-rails'
 # Persistence
 gem 'pg', '~> 0.15'
 
+# Domain auditing
+gem 'audited', '~> 4.3'
+gem 'rails-observers', github: 'rails/rails-observers'
+
 # Use Puma as the app server
 gem 'puma'
 

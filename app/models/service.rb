@@ -4,4 +4,6 @@ class Service < ActiveRecord::Base
   has_one :schedule
   has_and_belongs_to_many :categories
   has_many :ratings
+
+  audited
 end

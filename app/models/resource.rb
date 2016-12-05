@@ -7,4 +7,6 @@ class Resource < ActiveRecord::Base
   has_many :notes
   has_many :services
   has_many :ratings
+
+  audited
 end
